@@ -1,0 +1,22 @@
+{
+  "name": "mob-choppa",
+  "version": "1.0.0",
+  "description": "A Mob Programming timing tool, used to rotate drivers",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petemcfarlane/mob-choppa.git"
+  },
+  "keywords": [
+    "Mob Programming",
+    "timer",
+  ],
+  "author": "Pete McFarlane & friends",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron-prebuilt": "^1.0.1"
+  }
+}
