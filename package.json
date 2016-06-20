@@ -4,7 +4,7 @@
   "description": "A Mob Programming timing tool, used to rotate drivers",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js",
+    "start": "electron main.js"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "Mob Programming",
-    "timer",
+    "timer"
   ],
   "author": "Pete McFarlane & friends",
   "license": "CC0-1.0",

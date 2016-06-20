@@ -3,7 +3,7 @@ const {app, Tray, Menu, BrowserWindow} = require('electron')
 let mainWindow
 
 function createWindow () {
-  mainWindow = new BrowserWindow({show: true})
+  mainWindow = new BrowserWindow({show: false})
   mainWindow.loadURL(`file://${__dirname}/index.html`)
   mainWindow.on('closed', function () {
     mainWindow = null
